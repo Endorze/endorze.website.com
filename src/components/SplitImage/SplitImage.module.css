@@ -1,0 +1,8 @@
+.ImageContainer {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Justera höjden efter behov */
+    display: flex;
+    overflow: hidden;
+}
+

@@ -1,3 +1,51 @@
 .H1 {
+    color: black;
+}
+
+.Wrapper {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    bottom: 0px;
+    height: 300px;
     color: white;
+    background-color: black;
+    width: 100%;
+    justify-content: center;
+}
+
+.MediaLinks {
+    width: 100%;
+    max-width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MediaLinks ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+.MediaLinks a img {
+    width: 40px;
+}
+
+.Line {
+    flex-grow: 1; /* Gör att linjen tar upp resterande plats */
+    height: 1px;  /* Linjens höjd */
+    background-color: white;  /* Linjens färg */
+    margin: 0 20px;  /* Marginal mellan linjen och innehållet */
+}
+.Logo {
+    width: 150px;
+}
+.LogoCopyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

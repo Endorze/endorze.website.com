@@ -1,3 +1,43 @@
 .H1 {
     color: white;
 }
+
+.Wrapper {
+    width: 100%;
+    height: 100px;
+    background: rgba(16, 16, 20, .7);
+    backdrop-filter: var(--effect-material-blur, blur(50px));
+    position: fixed;
+    content: "";
+    inset: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.NavigationList {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    min-width: 0px;
+    gap: 2rem 1.5rem;
+}
+
+.NavigationList div {
+    width: auto;
+    height: 100%;
+    flex-shrink: 0;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+}
+.NavigationList div a {
+    color: white;
+    text-decoration: none; 
+    font-size: 1.5em;
+}
+
+.Logo {
+    height: 100%;
+}
