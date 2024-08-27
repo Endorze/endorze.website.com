@@ -7,8 +7,8 @@
     position: absolute;
     align-items: center;
     flex-direction: column;
-    bottom: 0px;
     height: 300px;
+    margin-top: auto;
     color: white;
     background-color: black;
     width: 100%;

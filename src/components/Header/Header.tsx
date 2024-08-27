@@ -7,19 +7,19 @@ const Header = () => {
         <img src={logo} className={style.Logo}></img>
         <div className={style.NavigationList}>
             <div>
-            <a href="/">Hem</a>
+            <a href="/"></a>
             </div>
             <div>
-            <a href="/">Om mig</a>
+            <a href="/"></a>
             </div>
             <div>
-            <a href="/">Mina projekt</a>
+            <a href="/"></a>
             </div>
             <div>
-            <a href="/">Mitt CV</a>
+            <a href="/"></a>
             </div>
             <div>
-            <a href="/">Kontakta mig</a>
+            <a href="/"></a>
             </div>
         </div>
     </div>

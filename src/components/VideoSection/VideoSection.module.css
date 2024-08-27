@@ -1,0 +1,89 @@
+.Wrapper {
+    width: 100%;
+    max-width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vw * (9/16));
+    max-height: 940px;
+    overflow: hidden;
+}
+
+.Video {
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.VideoPlayer {
+    pointer-events: none; /* Gör videon oklickbar */
+    height: calc(100vw * (9/16));
+}
+.Text {
+    position: absolute;
+    top: var(--global-header-height);;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    margin-top: 1em;
+    margin-left: 1em;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+    min-width: 15vw;
+    max-width: 600px;
+
+    padding: 20px;
+    border-radius: 10%;
+}
+.Text h1 {
+    font-size: 3em;
+    margin-top: -50px;
+    margin-bottom: 30px;
+    margin-left: 75px;
+}
+.Text p {
+    font-size: 1.2em;
+    margin-left: 75px;
+}
+.Text img {
+    width: 300px;
+}
+.VideoButton1 {
+    --magenta-haze: #9E377Dff;
+    --jasmine: #F9D889ff;
+    background-color: var(--magenta-haze);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+}
+.VideoButton2 {
+--jasmine: #F9D889ff;
+    background-color: var(--jasmine);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+}
+.VideoButtonsWrapper {
+    margin-left: 75px;
+    display: flex;
+    gap: 20px;
+}
+.VideoButtonsWrapper button {
+    font-size: 1.2em;
+}
+@media (max-width: 1000px) {
+    .Text {
+        display: none;
+    }
+}
