@@ -11,20 +11,21 @@ body {
   width: 100vw;
   min-width: 100%;
   min-height: 100vh;
-  background-color: #1C1C1E;
+  /* background-color: #1C1C1E; */
   overflow-x: hidden;
   font-family: 'Roboto', sans-serif;
-  /*animation: mymove 5s infinite;*/
+ animation: mymove 5s infinite;
 
   --global-header-height: 100px;
+  white-space: pre-line;
 }
 
 @keyframes mymove {
   0% {
-    background-color: rgba(0, 0, 0, 0.799);
+    background-color: rgb(0, 0, 0);
   }
   50% {
-    background-color: rgba(0, 0, 0, 0.607)
+    background-color: rgba(0, 0, 0, 0.911)
   }
   100% {
     background-color: black;

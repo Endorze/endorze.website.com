@@ -1,0 +1,9 @@
+.Space {
+  height: 150px;
+}
+
+@media (max-width: 800px) {
+  .Space {
+    height: 50px;
+  }
+}
