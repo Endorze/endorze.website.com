@@ -5,6 +5,7 @@ import AboutMeSection from "../components/AboutMeSection/AboutMeSection";
 import SpaceSection from "../components/SpaceSection/SpaceSection";
 import MyCvSection from "../components/MyCvSection/MyCvSection";
 import MyProjects from "../components/MyProjects/MyProjects";
+import HorizontalSlider from "../components/HorizontalSlider/HorizontalSlider";
 const Home = () => {
     return <div className={styles.Wrapper}>
         <VideoSection />
@@ -14,6 +15,8 @@ const Home = () => {
         <MyCvSection />
         <SpaceSection />
         <MyProjects />
+        <HorizontalSlider />
+        <SpaceSection />
     </div>
 }
 

@@ -1,20 +1,18 @@
-import React from "react";
-import { Slide } from "react-slideshow-image";
-import "react-slideshow-image/dist/styles.css";
-import styles from "./MyProjects.module.css"
+import { useTranslation } from "react-i18next";
+import styles from "./MyProjects.module.css";
 
 const MyProjects = () => {
+  const { t } = useTranslation();
+  const text = t("myprojects.title");
 
-        const Images = [
-            "https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        ];
-    
-
-    return <div>
-        <div className={styles.SlideEffect}>
-            <div style={{ 'backgroundImage': `url(${Images[0]})`}}></div>
-        </div>
+  return (
+    <div className={styles.MyProjectsWrap}>
+      <div className={styles.MyProjectsText}>
+        <h1>{text}</h1>
+        <p>Nya projekt fylls på allt eftersom.</p>
+      </div>
     </div>
-}
+  );
+};
 
 export default MyProjects;

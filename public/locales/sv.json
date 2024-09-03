@@ -2,5 +2,9 @@
     "aboutme": {
         "title": "Information om mig",
         "text": "Hej, mitt namn är Alexander Hallgren!\n\n År 2022 påbörjade jag mina studier inom programmering, vilket har lett till att jag har utvecklat en djupare förståelse för exempelvis teknologier som databaser, Java, Kotlin, TypeScript, React. \n\n Under min utbildning har jag arbetat med dessa tekniker genom både kursprojekt och egna initiativ. För närvarande arbetar jag som konsult för företaget Kantherm, där jag får värdefull praktisk erfarenhet.\n\n Mitt långsiktiga mål är att vidareutveckla mina färdigheter och erfarenheter för att en dag kunna bära titeln Senior Full-Stack Developer. Jag är ständigt på jakt efter nya utmaningar och möjligheter att växa inom mitt yrke."
+    },
+
+    "myprojects": {
+        "title": "Mina projekt"
     }
 }

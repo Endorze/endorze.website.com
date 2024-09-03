@@ -1,7 +1,8 @@
-.SlideEffect > div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-size: cover;
-    height: 350px;
+
+.MyProjectsWrap h1 {
+  font-size: 3em;
+}
+.MyProjectsText {
+  margin-bottom: 50px;
+  text-align: center;
 }
