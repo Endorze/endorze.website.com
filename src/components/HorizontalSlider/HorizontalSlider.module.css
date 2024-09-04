@@ -10,18 +10,7 @@
     display: flex;
     white-space: nowrap; /* Håll alla kort på samma rad */
   }
-  
-  .card {
-    flex: 0 0 20%; /* 20% av behållaren, justera efter antal kort */
-    box-sizing: border-box;
-    margin: 0 10px;
-    padding: 20px;
-    border: 1px solid gray;
-    background-color: black;
-    border-radius: 5px;
-    text-align: center;
-    min-width: 200px; /* Justera för att passa ditt innehåll */
-  }
+
   .card p {
     color: white;
   }
