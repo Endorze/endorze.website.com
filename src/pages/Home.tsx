@@ -18,7 +18,9 @@ const Home = () => {
         <MyProjects />
         <HorizontalSlider />
         <SpaceSection />
+        <SpaceSection />
         <ContactMe />
+        <SpaceSection />
     </div>
 }
 

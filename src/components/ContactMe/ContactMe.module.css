@@ -10,6 +10,7 @@
 
 .LeftContactForm {
     width: 50%;
+    margin-top: 20px;
 }
 
 .RightContactForm {
@@ -18,6 +19,10 @@
     color: black;
     border-radius: 20px;
     padding: 20px;
+}
+.LeftContactForm h1 {
+    font-size: 2.5em;
+    width: 300px;
 }
 
 .RightContactInputs input {
@@ -29,6 +34,12 @@
     margin-bottom: 10px;
     outline: none;
 }
+.RightContactInputs input:focus {
+    border-color: #9ecaed;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 10px #9ecaed
+}
 
 .RightContactInputs {
     margin-top: 30px;
@@ -38,9 +49,19 @@
     display: flex;
     flex-direction: column;
 }
+.ContactMeText {
+    margin-bottom: 20px;
+}
 .TextAreaWrapper textarea {
     height: 200px;
     padding: 10px;
+    resize: none;
+}
+.TextAreaWrapper textarea:focus {
+    border-color: #9ecaed;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 10px #9ecaed
 }
 .ContactInfo {
     margin-top: 60px;
@@ -48,6 +69,7 @@
     display: flex;
     flex-direction: column;
 }
+
 .ContactInfo a {
     color: hsla(182, 100%, 91%, 1);
     text-decoration: none;

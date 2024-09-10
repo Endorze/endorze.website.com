@@ -1,16 +1,17 @@
 .CardImage {
     width: 100%;
     border-radius: 8px;
+    object-fit: cover;
 }
 .Card {
-    flex: 0 0 20%; /* 20% av behållaren, justera efter antal kort */
-    box-sizing: border-box;
-    margin: 0 10px;
-    padding: 20px;
-    border: 1px solid darkgray;
-    background-color: gray;
-    border-radius: 5px;
-    min-width: 200px; /* Justera för att passa ditt innehåll */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+
+    align-items: center;
+    background-color: white;
+    color: black;
 }
 .LogoImage img {
     width: 40px;
