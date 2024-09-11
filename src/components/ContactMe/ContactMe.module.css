@@ -1,6 +1,7 @@
 .ContactFormWrapper {
     display: flex;
     max-width: 800px;
+    width: 100%;
     min-height: 700px;
     padding: 20px;
     background-color: rebeccapurple;
@@ -11,6 +12,17 @@
 .LeftContactForm {
     width: 50%;
     margin-top: 20px;
+
+}
+.contactformLogo {
+    position: relative;
+}
+.contactformLogo img {
+    top: 120px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
 }
 
 .RightContactForm {
@@ -91,7 +103,7 @@
     background-color: rebeccapurple;
     color: white;
     border: none;
-    ;
+    align-self: flex-end;
 }
 .TextAreaWrapper button:hover {
     cursor: pointer;

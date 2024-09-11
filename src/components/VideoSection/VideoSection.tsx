@@ -2,9 +2,14 @@ import React, { useState } from "react";
 import ReactPlayer from "react-player";
 import styles from "./VideoSection.module.css"
 import logo from "../../assets/images/headerimg/Alexander.svg"
+import { useTranslation } from "react-i18next";
 
 const VideoSection: React.FC = () => {
   const videoPath = "";
+
+  const { t } = useTranslation();
+
+
 
   return (
     <div className={styles.Wrapper}>
@@ -21,11 +26,11 @@ const VideoSection: React.FC = () => {
         />
         <div className={styles.Text}>
             <img src={logo}></img>
-            <h1>Inget är omöjligt</h1>
-            <p>Att bli en webbutvecklare har varit en otrolig resa. Vid 2022 avslutade jag min karriär som säljare och valde att satsa på programmering, nu år 2024 är jag stolt att bära titeln Webbutvecklare.</p>
+            <h1>{t("videocard.title")}</h1>
+            <p>{t("videocard.text")}</p>
             <div className={styles.VideoButtonsWrapper}>
-            <button className={styles.VideoButton1}>Kontakta mig</button>
-            <button className={styles.VideoButton2}>Mina projekt</button>
+            <button className={styles.VideoButton1}>{t("videocard.contactButton")}</button>
+            <button className={styles.VideoButton2}>{t("videocard.myprojectsButton")}</button>
             </div>
             </div>
       </div>

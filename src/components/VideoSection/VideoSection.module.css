@@ -64,6 +64,7 @@
     width: 150px;
     height: 50px;
 }
+
 .VideoButton2 {
 --jasmine: #F9D889ff;
     background-color: var(--jasmine);
@@ -79,6 +80,9 @@
     display: flex;
     gap: 20px;
 }
+
+
+
 .VideoButtonsWrapper button {
     font-size: 1.2em;
 }

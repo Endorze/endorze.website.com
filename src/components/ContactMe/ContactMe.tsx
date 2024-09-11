@@ -1,10 +1,13 @@
 import { useState } from "react";
 import styles from "./ContactMe.module.css"
+import logo from "../../assets/images/headerimg/Alexander.svg"
 
 
 const ContactMe = () => {
 
     const [name, setName] = useState<string>();
+
+   
 
 
     return <div className={styles.ContactFormWrapper}>
@@ -17,7 +20,9 @@ const ContactMe = () => {
                 <p className={styles.EmailParagraph}>Email:</p>
                 <a href="mailto:Alexyurihallgren@hotmail.com">Alexyurihallgren@hotmail.com</a>
             </div>
-            <img src=""></img>
+            <div className={styles.contactformLogo}>
+            <img src={logo}></img>
+            </div>
         </div>
         <div className={styles.RightContactForm}>
             <h1>Kontakta mig här</h1>
