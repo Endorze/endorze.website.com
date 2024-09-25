@@ -49,10 +49,10 @@
     outline: none;
 }
 .RightContactInputs input:focus {
-    border-color: #9ecaed;
+    border-color: hsla(19, 97%, 70%, 1);;
     outline: none;
     border: none;
-    box-shadow: 0 0 10px #9ecaed
+    box-shadow: 0 0 10px hsla(19, 97%, 70%, 1);
 }
 
 .RightContactInputs {
@@ -72,10 +72,10 @@
     resize: none;
 }
 .TextAreaWrapper textarea:focus {
-    border-color: #9ecaed;
+    border-color: hsla(19, 97%, 70%, 1);;
     outline: none;
     border: none;
-    box-shadow: 0 0 10px #9ecaed
+    box-shadow: 0 0 10px hsla(19, 97%, 70%, 1);
 }
 .ContactInfo {
     margin-top: 60px;
@@ -85,8 +85,8 @@
 }
 
 .ContactInfo a {
-    color: hsla(182, 100%, 91%, 1);
-    text-decoration: none;
+    color: black;
+    text-decoration: underline;
 }
 
 .TextAreaWrapper textarea:focus {
@@ -98,16 +98,20 @@
 
 
 .TextAreaWrapper button {
+    --sandy-brown: hsla(26, 100%, 69%, 1);
+    --hunyadi-yellow: hsla(34, 99%, 66%, 1);
+    --atomic-tangerine: hsla(19, 97%, 70%, 1);
     width: 150px;
     margin-top: 10px;
     padding: 15px;
     border-radius: 5px;
-    background-color: rgb(249, 220, 152);
-    color: white;
+    background-color: var(--hunyadi-yellow);
+    color: black;
+    font-size: 1.2em;
     border: none;
     align-self: flex-end;
 }
 .TextAreaWrapper button:hover {
     cursor: pointer;
-    background-color: #d33267;
+    background-color: var(--sandy-brown);
 }
