@@ -1,25 +1,25 @@
 .CardImage {
     width: 100%;
-    border-radius: 8px;
     object-fit: cover;
 }
+
 .Card {
     display: flex;
     flex-direction: column;
     width: 300px;
     height: 400px;
-
     align-items: center;
     background-color: white;
-    color: black;
 }
 .LogoImage img {
     width: 40px;
 }
+
 .Card a {
     text-decoration: none;
+    color: black;
 }
 
 .CardTextSection {
-
+    padding: 20px;
 }

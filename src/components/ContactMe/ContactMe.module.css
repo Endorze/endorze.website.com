@@ -4,19 +4,21 @@
     width: 100%;
     min-height: 700px;
     padding: 20px;
-    background-color: rebeccapurple;
+    background-color: #F9D889ff;
     border-radius: 20px;
 
 }
 
 .LeftContactForm {
     width: 50%;
-    margin-top: 20px;
-
+    margin-top: 20px;   
+    color: black;
 }
+
 .contactformLogo {
     position: relative;
 }
+
 .contactformLogo img {
     top: 120px;
     width: 200px;
@@ -100,12 +102,12 @@
     margin-top: 10px;
     padding: 15px;
     border-radius: 5px;
-    background-color: rebeccapurple;
+    background-color: rgb(249, 220, 152);
     color: white;
     border: none;
     align-self: flex-end;
 }
 .TextAreaWrapper button:hover {
     cursor: pointer;
-    background-color: rgb(130, 67, 193);
+    background-color: #d33267;
 }

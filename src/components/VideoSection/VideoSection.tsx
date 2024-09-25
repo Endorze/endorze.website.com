@@ -29,8 +29,8 @@ const VideoSection: React.FC = () => {
             <h1>{t("videocard.title")}</h1>
             <p>{t("videocard.text")}</p>
             <div className={styles.VideoButtonsWrapper}>
-            <button className={styles.VideoButton1}>{t("videocard.contactButton")}</button>
-            <button className={styles.VideoButton2}>{t("videocard.myprojectsButton")}</button>
+            <button className={styles.VideoButton1}><a href="#contactform">{t("videocard.contactButton")}</a></button>
+            <button className={styles.VideoButton2}><a href="#myprojects">{t("videocard.myprojectsButton")}</a></button>
             </div>
             </div>
       </div>

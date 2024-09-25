@@ -22,6 +22,7 @@ const Footer = () => {
         <div className={style.LogoCopyright}>
             <img src={logo} className={style.Logo}></img>
             <p>Copyright &copy; {date} Alexander Production</p>
+            <p>Hosting on a server is expensive, please forgive a man</p>
         </div>
     </div>
 }
