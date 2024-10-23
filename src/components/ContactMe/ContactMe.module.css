@@ -11,7 +11,20 @@
 
 .LeftContactForm {
     width: 50%;
-    margin-top: 20px;
+    margin-top: 20px;   
+    color: black;
+}
+
+.contactformLogo {
+    position: relative;
+}
+
+.contactformLogo img {
+    top: 120px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
 }
 
 .RightContactForm {
@@ -66,8 +79,8 @@
 }
 
 .ContactInfo a {
-    color: hsla(182, 100%, 91%, 1);
-    text-decoration: none;
+    color: white;
+    text-decoration: underline;
 }
 
 .TextAreaWrapper textarea:focus {
@@ -78,6 +91,9 @@
 }
 
 .TextAreaWrapper button {
+    --sandy-brown: hsla(26, 100%, 69%, 1);
+    --hunyadi-yellow: hsla(34, 99%, 66%, 1);
+    --atomic-tangerine: hsla(19, 97%, 70%, 1);
     width: 150px;
     margin-top: 10px;
     padding: 15px;

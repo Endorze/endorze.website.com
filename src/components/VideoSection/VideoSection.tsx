@@ -2,9 +2,14 @@ import React, { useState } from "react";
 import ReactPlayer from "react-player";
 import styles from "./VideoSection.module.css"
 import logo from "../../assets/images/headerimg/Alexander.svg"
+import { useTranslation } from "react-i18next";
 
 const VideoSection: React.FC = () => {
   const videoPath = "";
+
+  const { t } = useTranslation();
+
+
 
   return (
     <div className={styles.Wrapper}>

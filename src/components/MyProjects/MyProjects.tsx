@@ -7,7 +7,7 @@ const MyProjects = () => {
 
   return (
     <div className={styles.MyProjectsWrap}>
-      <div className={styles.MyProjectsText}>
+      <div className={styles.MyProjectsText} id="myprojects">
         <h1>{text}</h1>
         <p>Nya projekt fylls på allt eftersom.</p>
       </div>

@@ -9,18 +9,7 @@ const Header = () => {
             <div>
             <a href="/"></a>
             </div>
-            <div>
-            <a href="/"></a>
-            </div>
-            <div>
-            <a href="/"></a>
-            </div>
-            <div>
-            <a href="/"></a>
-            </div>
-            <div>
-            <a href="/"></a>
-            </div>
+
         </div>
     </div>
 }
