@@ -1,11 +1,12 @@
 .ContactFormWrapper {
     display: flex;
-    max-width: 800px;
+    min-width: 60vw;
     min-height: 700px;
     padding: 20px;
-    background-color: rebeccapurple;
     border-radius: 20px;
-
+    background-image: url("https://images.unsplash.com/photo-1501760845351-4a8c9c6a5037?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b3JhbmdlJTIwc2t5fGVufDB8fDB8fHww");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .LeftContactForm {
@@ -15,14 +16,16 @@
 
 .RightContactForm {
     width: 50%;
-    background-color: white;
-    color: black;
-    border-radius: 20px;
+    color: white;
     padding: 20px;
 }
 .LeftContactForm h1 {
     font-size: 2.5em;
     width: 300px;
+}
+
+.LeftContactForm img {
+    width: 20vw;
 }
 
 .RightContactInputs input {
@@ -33,12 +36,7 @@
     width: 100%;
     margin-bottom: 10px;
     outline: none;
-}
-.RightContactInputs input:focus {
-    border-color: #9ecaed;
-    outline: none;
     border: none;
-    box-shadow: 0 0 10px #9ecaed
 }
 
 .RightContactInputs {
@@ -56,13 +54,10 @@
     height: 200px;
     padding: 10px;
     resize: none;
-}
-.TextAreaWrapper textarea:focus {
-    border-color: #9ecaed;
-    outline: none;
     border: none;
-    box-shadow: 0 0 10px #9ecaed
+    display: flex;
 }
+
 .ContactInfo {
     margin-top: 60px;
     font-size: 1.2em;
@@ -82,18 +77,16 @@
     margin-top: 30px;
 }
 
-
 .TextAreaWrapper button {
     width: 150px;
     margin-top: 10px;
     padding: 15px;
-    border-radius: 5px;
-    background-color: rebeccapurple;
+    background-color: rgb(240, 167, 11);
     color: white;
     border: none;
-    ;
+    align-self: flex-end;
 }
 .TextAreaWrapper button:hover {
     cursor: pointer;
-    background-color: rgb(130, 67, 193);
+    background-color: rgb(28, 60, 163);
 }

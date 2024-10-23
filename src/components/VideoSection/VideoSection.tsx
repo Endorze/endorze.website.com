@@ -21,10 +21,10 @@ const VideoSection: React.FC = () => {
         />
         <div className={styles.Text}>
             <img src={logo}></img>
-            <h1>Inget är omöjligt</h1>
+            <h1>Allt är möjligt</h1>
             <p>Att bli en webbutvecklare har varit en otrolig resa. Vid 2022 avslutade jag min karriär som säljare och valde att satsa på programmering, nu år 2024 är jag stolt att bära titeln Webbutvecklare.</p>
             <div className={styles.VideoButtonsWrapper}>
-            <button className={styles.VideoButton1}>Kontakta mig</button>
+            <a href="#contact-form"><button className={styles.VideoButton1}>Kontakta mig</button></a>
             <button className={styles.VideoButton2}>Mina projekt</button>
             </div>
             </div>
