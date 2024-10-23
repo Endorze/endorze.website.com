@@ -13,16 +13,15 @@ const Footer = () => {
         <div className={style.MediaLinks}>
             <div className={style.Line}></div>
             <ul>
-                <li><a href="https://web.facebook.com/profile.php?id=100008084297525"><img src={facebookimg}></img></a></li>
-                <li><a href="https://www.instagram.com/alexander_webdev/"><img src={instagramimg}></img></a></li>
-                <li><a href="https://www.linkedin.com/in/alexander-hallgren-5a4a501aa/"><img src={linkedinimg}></img></a></li>
+                <li><a href="https://web.facebook.com/profile.php?id=100008084297525" target="_blank"><img src={facebookimg}></img></a></li>
+                <li><a href="https://www.instagram.com/alexander_webdev/" target="_blank"><img src={instagramimg}></img></a></li>
+                <li><a href="https://www.linkedin.com/in/alexander-hallgren-5a4a501aa/" target="_blank"><img src={linkedinimg}></img></a></li>
             </ul>
             <div className={style.Line}></div>
         </div>
         <div className={style.LogoCopyright}>
             <img src={logo} className={style.Logo}></img>
             <p>Copyright &copy; {date} Alexander Production</p>
-            <p>Hosting on a server is expensive, please forgive a man</p>
         </div>
     </div>
 }

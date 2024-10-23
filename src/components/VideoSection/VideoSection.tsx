@@ -30,7 +30,7 @@ const VideoSection: React.FC = () => {
             <p>Att bli en webbutvecklare har varit en otrolig resa. Vid 2022 avslutade jag min karriär som säljare och valde att satsa på programmering, nu år 2024 är jag stolt att bära titeln Webbutvecklare.</p>
             <div className={styles.VideoButtonsWrapper}>
             <a href="#contact-form"><button className={styles.VideoButton1}>Kontakta mig</button></a>
-            <button className={styles.VideoButton2}>Mina projekt</button>
+            <a href="#myprojects"><button className={styles.VideoButton2}>Mina projekt</button></a>
             </div>
             </div>
       </div>
